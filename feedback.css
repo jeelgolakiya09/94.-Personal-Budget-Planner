@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    background-color: rgba(99, 104, 108, 0.417);
+
+}
+
+.top{
+    height: 100px;
+    background-color: rgb(56, 156, 184);
+    width:100%;
+}
+
+.top h1{
+    margin-left: 40px;
+    padding-top: 18px;
+    font-size:45px;
+    text-align: center;
+}
+
+form{
+    background-color: rgba(122, 130, 128, 0.645);
+    width: 550px;
+    height: 680px;
+    margin-left: 650px;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 20px;
+    border: black 3px solid;
+}
+
+form h1{
+    font-size: 50px;
+}
+
+form hr{
+    margin-bottom: 30px;
+    border:solid 2px white;
+}
+
+form input{
+    width:500px;
+    border-radius: 50px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+form b{
+    font-size: 25px;
+}
+
+.a{
+    width: 500px;
+    position: relative;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 10px;
+
+}
+
+button{
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(120, 135, 120, 0.39);
+    margin-top: 23px;
+    transition: 1s ease;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgb(56, 156, 184);;
+}

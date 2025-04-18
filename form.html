@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <script src="form.js"></script>
+    <style>
+        body{
+            background-color: whitesmoke;
+            background-image: url(log.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+
+        .abc{
+            width: 700px;
+            height:560px;
+            background-color: rgba(245, 245, 245, 0.621);
+            color: black;
+            padding: 30px;
+            margin: 200px;
+            margin-left: 600px;
+            border: black 5px solid;
+            border-radius: 15px;
+            margin-top: 100px;
+        }
+
+        b{
+            font-size: 25px;
+        }
+
+        input{
+            padding: 10px;
+        }
+
+        button{
+            padding: 18px;
+            margin-left: 150px;
+            background-color: rgb(117, 112, 110);;
+            color: white;
+            cursor:pointer;
+            transition: EASE 1s;
+            border-radius:10px;
+            width: 120px;
+            font-size: 16px;
+
+        }
+
+        button:hover{
+            background-color: rgb(153, 154, 153);
+            color: white;
+        }
+
+        input{
+            border-radius: 15px;
+        }
+
+
+    </style>
+    <body>
+        
+        <div class="abc">
+        <form>
+        <h1 style="text-align: center; font-size: 42px;">Registration Form</h1>
+        <hr style="border: 2px dashed black;"><br>
+        <b>Enter your first name:</b>
+        <input id="f" type="text"  style="width:350px;" placeholder="Enter Your First name" required><br><br>
+        <b>Enter your last name:</b>
+        <input id="l" type="text"  style="width:350px;" placeholder="Enter Your Last name" required><br><br>
+        <b>Gender:</b>
+        <input type="radio" id="male" name="gender" value="Male">Male
+        <input type="radio" id="female" name="gender" value="Female">Female<br><br>
+
+        <b>Date:</b>
+        <input id="d" type="date" required><br><br>
+        <b>Email:</b>
+        <input id="e" type="email"  style="width:350px;" placeholder="Enter Your Email" required><br><br>
+
+        <b>City:</b>
+        <select id="city" name="city" style="width:240px; border-radius: 20px; height: 30px;" required >
+            <option value="surat">surat</option>
+            <option value="ahmedabad">ahmedabad</option>
+            <option value="gandhinagar">gandhinagar</option>
+            <option value="bhavnagar">bhavnagar</option>
+            <option value="amreli">amreli</option>
+        </select>
+        <br><br>
+
+        <b>State:</b>
+        <select id="state" name="state" style="width:240px; border-radius: 20px; height: 30px;"  required>
+            <option value="gujarat">Gujarat</option>
+            <option value="goa">Goa</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Punjab">Punjab</option>
+        </select>
+        <br><br>
+        <button id="sub" type="button">SUBMIT</button>
+        <button type="reset" style="margin-left: 50px;">RESET</button><br><br>
+
+        </form>
+    </div>
+
+    </body>
+</html>

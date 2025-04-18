@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<script src="login.js"></script>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        background-image: url(log.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       }
+
+    .form{
+        margin-top: 200px;
+        background-color: rgba(245, 245, 245, 0.626);
+        width: 500px;
+        height: 490px;
+        border:black 2px solid;
+        border-radius: 20px;
+        padding: 25px;
+        overflow: hidden;
+
+    }
+
+    .form h1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    input{
+        border-radius: 30px;
+        padding: 20px;
+        font-size: 20px;
+        width:390px;
+        margin-top:10px;
+    }
+
+    button{
+        width:100%;
+        padding: 18px;
+        border-radius: 30px;
+        background-color: rgba(142, 139, 137, 0.677);
+        font-size: 25px;
+        color: white;
+    }
+
+    button:hover{
+        background-color: grey;
+        color:aliceblue;
+        cursor: pointer;
+    }
+
+    .form p{
+        color: rgb(19, 18, 18);
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: 1000;
+        text-decoration: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    span{
+        margin-left: 20px;
+    }
+
+    .form p:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+</style>
+<body>
+    
+    <div class="form">
+        <form>
+        <h1>Login form </h1>
+        <hr><br>
+        <i style="font-size: 50px; margin-right: px; margin-top: 20px;" class="fa-solid fa-circle-user"></i>
+        <input id=user type="text" placeholder="Username" required><br><br>
+
+        <i style="font-size: 40px; margin-right: px; margin-top: 25px;" class="fa-solid fa-user-lock"></i>
+        <input id=pass type="password" placeholder="password" required><br><br>
+
+        <input type=checkbox style="width:20px; height: 20px; margin-top: 20px;">
+        <label style="font-size: 20px; font-weight: 900;">Remember Me</label>
+
+        <label style="margin-left: 140px; font-size: 20px; font-weight: 600;"><u>Forgot password</u></label><br><br>
+
+        <button id="btn" type="submit">Log In</button>
+        <a href="form.html"><p>Did Not have a register?<span>Register</span> </p></a>
+        </form>
+    </div>
+
+    
+    
+</body>
+</html>

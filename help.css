@@ -1,0 +1,292 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.h-f{
+    position: fixed;
+    width: 1910px;
+}
+
+.s{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.header{
+    background-color: rgb(56, 156, 184);
+    height:80px;
+}
+
+.logo{
+    margin-left:100px;
+    margin-top: 10px;
+
+}
+
+.search{
+    border-radius: 50px;
+    padding: 20px;
+    width:400px;
+    margin-left:00px;
+    margin-top: 0;
+    font-size: 20px;
+
+}
+
+
+.header ul{
+    display:flex;
+    list-style: none;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding: 6px;
+}
+
+.header ul li{
+    margin:10px;
+    padding:13px;
+    margin-right: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color:black;
+    padding:30px;
+    font-weight: 600;
+    transition: 0.25s ease-in;
+
+}
+
+.header a:hover{
+    background-color: rgba(203, 208, 212, 0.39);
+    
+}
+@media(max-width:600px){
+
+    .header{
+        height: 330px;
+    }
+    .header ul{
+        display: block;
+    }
+
+    .video{
+        margin-top: 200px;
+    }
+}
+
+
+.video{
+    display: flex;
+}
+
+.video iframe{
+    height: 450px;
+    width: 2800px;
+    margin-left: 100px;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+
+.content-video{
+    color: rgba(57, 59, 61, 0.799);
+}
+
+.content-video p{
+    margin-left: 100px;
+    margin-right: 150px;
+    line-height: 66px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.Faqs{
+    margin-top: 80px;
+    margin-left: 110px;
+}
+
+.Faqs h1{
+    color: rgba(49, 153, 165, 0.704);
+    font-size: 60px;
+}
+
+.Faqs h2{
+    margin-top: 60px;
+    list-style: disc;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+.Faqs b{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.Faqs p{
+    margin-left: 100px;
+    font-size: 25px;
+    color: rgb(101, 99, 99);
+    margin-bottom: 45px;
+}
+
+
+ .table h1 {
+    text-align: center;
+    color: #333;
+    color:rgba(49, 153, 165, 0.704); 
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.table table {
+    margin-left: 150px;
+    width: 1500px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+.table th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+.feedback h1{
+    color: rgba(49, 153, 165, 0.704);
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.feedback p{
+    margin-left: 120px;
+    margin-top: 30px;
+    color:grey;
+    font-size: 30px;
+}
+
+.feedback button{
+    padding: 30px;
+    background-color: #4CAF50;
+    margin-left: 270px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.feedback button:hover{
+    transition: 0.70s ease;
+    background-color: rgb(56, 156, 184);
+    color: white;
+    font-size: 30px;
+    padding: 40px;
+}
+
+
+
+
+
+.footer{
+    background-color: rgba(108, 104, 104, 0.318);
+    height: 750px;
+    width:100%;
+    margin-top: 100px;
+    padding-top: 55px;
+}
+
+.f-img{
+    display: flex;
+}
+
+.f-img p{
+    font-family: Arial;
+    font-size: 65px;
+    color: white;
+    font-weight: 1000;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.f-line{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.f-s{
+    display: flex;
+}
+
+.service p{
+    margin-left: 200px;
+    margin-top:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.service p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.prom{
+    margin-left: 200px;
+    margin-top:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.social{
+    height:150px;
+    background-color: rgba(84, 77, 69, 0.656);
+    margin-top: 70px;
+}
+
+.social p{
+    text-align: center ;
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 35px;
+    padding-top: 25px;
+}
+
+.social-image{
+    display: flex;
+    margin-left: 620px;
+    padding: 20px;
+}
+
+.social-image i{
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.copyright{
+    height: 100px;
+    background-color: rgba(23, 20, 20, 0.703);
+    margin-top: 0px;
+}
+
+.copyright p{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+}
